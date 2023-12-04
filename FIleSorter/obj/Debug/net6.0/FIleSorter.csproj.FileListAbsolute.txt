@@ -1,0 +1,14 @@
+D:\Project\FIleSorter\FIleSorter\bin\Debug\net6.0\FIleSorter.exe
+D:\Project\FIleSorter\FIleSorter\bin\Debug\net6.0\FIleSorter.deps.json
+D:\Project\FIleSorter\FIleSorter\bin\Debug\net6.0\FIleSorter.runtimeconfig.json
+D:\Project\FIleSorter\FIleSorter\bin\Debug\net6.0\FIleSorter.dll
+D:\Project\FIleSorter\FIleSorter\bin\Debug\net6.0\FIleSorter.pdb
+D:\Project\FIleSorter\FIleSorter\obj\Debug\net6.0\FIleSorter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\FIleSorter\FIleSorter\obj\Debug\net6.0\FIleSorter.AssemblyInfoInputs.cache
+D:\Project\FIleSorter\FIleSorter\obj\Debug\net6.0\FIleSorter.AssemblyInfo.cs
+D:\Project\FIleSorter\FIleSorter\obj\Debug\net6.0\FIleSorter.csproj.CoreCompileInputs.cache
+D:\Project\FIleSorter\FIleSorter\obj\Debug\net6.0\FIleSorter.dll
+D:\Project\FIleSorter\FIleSorter\obj\Debug\net6.0\refint\FIleSorter.dll
+D:\Project\FIleSorter\FIleSorter\obj\Debug\net6.0\FIleSorter.pdb
+D:\Project\FIleSorter\FIleSorter\obj\Debug\net6.0\FIleSorter.genruntimeconfig.cache
+D:\Project\FIleSorter\FIleSorter\obj\Debug\net6.0\ref\FIleSorter.dll
