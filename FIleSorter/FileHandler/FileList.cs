@@ -48,14 +48,6 @@ namespace FileSorter.FileHandler
             return fileList;
         }
 
-        public void DisplayList()
-        {
-            foreach(var file in fileList)
-            {
-                Console.WriteLine(file.GetFileName() + " "+ file.GetExtension());
-            }
-        }
-
         public void ClearFileList()
         {
             fileList.Clear();
