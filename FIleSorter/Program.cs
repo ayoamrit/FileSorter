@@ -20,11 +20,16 @@ public class Program
         //Create an instance of fileList
         fileList = new FileList();
 
+        //Message to show the user that the program has started
+        Console.WriteLine("FileSorter: Manage your downloaded files.");
+
 
         while (true)
         {
             //Execute the function to transfer files to their folders
             Run();
+
+            Console.WriteLine("Running...");  //Message
 
             //Sleep for 5 seconds and then check again if a new file is added to the folder or not
             Thread.Sleep(5000);
