@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "FIleSorter/1.0.0": {
+      "FileSorter/1.0.0": {
         "runtime": {
-          "FIleSorter.dll": {}
+          "FileSorter.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "FIleSorter/1.0.0": {
+    "FileSorter/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

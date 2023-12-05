@@ -18,7 +18,7 @@ namespace FileSorter.FileHandler
         }
 
         //Add a new file to the list
-        public void AddFile(string file)
+        public void AddFile(string? file)
         {
             //Extract filename and extension from the file path
             (string filename, string fileExtension) = GetFileProperties(file);
@@ -31,15 +31,19 @@ namespace FileSorter.FileHandler
         //Function to extract filename and extension from a given file path
         private (string, string) GetFileProperties(string file)
         {
-            //Splits the file path based on the dot('.') to separate filename and extension.
-            string[] fileProperties = file.Split('.');
+            
+            //Extract the file extension by taking the last 3 characters of the file path
+            string fileExtension = file.Substring(file.Length - 3);
+
+            //Extract the filename by taking all characters from the beginning up to last 4 characters
+            string filename = file.Substring(0, file.Length - 4);
 
             //Return a tuple with filename and extension
-            return (fileProperties[0], fileProperties[1]);
+            return (filename, fileExtension);
         }
 
         //Gets the list of File objects
-        public List<File>? GetFileList()
+        public List<File> GetFileList()
         {
             return fileList;
         }
@@ -50,6 +54,11 @@ namespace FileSorter.FileHandler
             {
                 Console.WriteLine(file.GetFileName() + " "+ file.GetExtension());
             }
+        }
+
+        public void ClearFileList()
+        {
+            fileList.Clear();
         }
     }
 }
