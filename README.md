@@ -32,7 +32,7 @@ FileSorter is an unobtrusive background application designed to streamline file 
 4. Run FileSorter:
 
    ```bash
-   FileSorter
+   FileSorter.exe
 
 ## Usage
 1. Run FileSorter.
